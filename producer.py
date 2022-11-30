@@ -8,20 +8,18 @@ from collections.abc import MutableMapping
 
 class kafka_Producer():
 
-    def flatten_dict(d: MutableMapping, sep: str= '.') -> MutableMapping:
-        [flat_dict] = pd.json_normalize(d, sep=sep).to_dict(orient='records')
-        return flat_dict
-
     def send_data(self):
         symbols=['goog']
         maang = Ticker(symbols, asynchronous=True)
         def json_serializer(data):
             return json.dumps(data).encode('utf-8')
         producer = KafkaProducer(bootstrap_servers=['localhost:9092'],value_serializer=json_serializer)
-        
+        def flatten_dict(d: MutableMapping, sep: str= '.') -> MutableMapping:
+            [flat_dict] = pd.json_normalize(d, sep=sep).to_dict(orient='records')
+            return flat_dict
         for i in range(0,1000):
             summary_details = maang.summary_detail
-            flat_dict=self.flatten_dict(summary_details)
+            flat_dict=flatten_dict(summary_details)
             print(flat_dict)
             try:
                 producer.send("test-topic",flat_dict)
