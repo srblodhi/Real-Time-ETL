@@ -3,6 +3,8 @@ import json
 from faker import Faker
 import time
 from yahooquery import Ticker
+import pandas as pd
+from collections.abc import MutableMapping
 
 class kafka_Producer():
 
