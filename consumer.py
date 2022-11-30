@@ -3,15 +3,18 @@ from kafka import KafkaConsumer
 import json
 from json import loads
 import time
+from collections.abc import MutableMapping
+import pandas as pd
 
 class kafka_Consumer():
 
-    def consume_data():
+    def consume_data(self):
         consumer = KafkaConsumer(
         'test-topic',
         bootstrap_servers='localhost:9092',
         auto_offset_reset='latest',
-        enable_auto_commit=True)
+        enable_auto_commit=True,
+        group_id='group_a')
         print("starting a consumer")
         #     return consumer
         msg_list=[]
