@@ -156,3 +156,86 @@ INFO: Unsupported notification method: $/setTrace
 2022.11.30 17:19:27 INFO  Template applied in /home/sourabhlodhisrb/Downloads/./hello-world
 2022.11.30 17:19:27 INFO  
 2022.11.30 17:19:27 INFO  time: ran 'giter8.Giter8' in 5.75s
+2022.11.30 18:21:00 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+Nov 30, 2022 7:24:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 551
+2022.11.30 19:24:23 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+Nov 30, 2022 7:36:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1548)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1632)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.11.30 19:41:37 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.11.30 19:57:55 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.11.30 20:04:09 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+Nov 30, 2022 8:06:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 925
+2022.12.01 00:55:34 INFO  shutting down Metals
+2022.12.02 23:49:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/lsp.trace.json or /home/sourabhlodhisrb/.cache/metals/lsp.trace.json
+2022.12.02 23:49:31 INFO  logging to file /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/metals.log
+2022.12.02 23:49:31 INFO  Started: Metals version 0.11.9 in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL' for client Visual Studio Code 1.73.1.
+2022.12.02 23:49:32 INFO  time: initialize in 1.03s
+2022.12.02 23:49:34 WARN  Build server is not auto-connectable.
+2022.12.02 23:49:34 WARN  no build tool detected in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.02 23:49:34 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.12.02 23:49:36 INFO  no build target found for /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.02 23:49:38 INFO  time: code lens generation in 3.72s
+2022.12.03 00:09:13 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.03 00:11:32 INFO  shutting down Metals
+2022.12.04 16:19:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/lsp.trace.json or /home/sourabhlodhisrb/.cache/metals/lsp.trace.json
+2022.12.04 16:19:29 INFO  logging to file /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/metals.log
+2022.12.04 16:19:29 INFO  Started: Metals version 0.11.9 in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL' for client Visual Studio Code 1.73.1.
+2022.12.04 16:19:30 INFO  time: initialize in 1.37s
+2022.12.04 16:19:32 WARN  Build server is not auto-connectable.
+2022.12.04 16:19:32 WARN  no build tool detected in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.04 16:19:32 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.12.04 16:19:34 INFO  no build target found for /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.04 18:34:39 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.04 18:35:08 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.04 18:35:13 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.04 21:13:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/lsp.trace.json or /home/sourabhlodhisrb/.cache/metals/lsp.trace.json
+2022.12.04 21:13:39 INFO  logging to file /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/metals.log
+2022.12.04 21:13:39 INFO  Started: Metals version 0.11.9 in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL' for client Visual Studio Code 1.73.1.
+2022.12.04 21:13:40 INFO  time: initialize in 0.98s
+2022.12.04 21:13:41 WARN  Build server is not auto-connectable.
+2022.12.04 21:13:41 WARN  no build tool detected in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.04 21:13:41 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.04 21:13:41 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.12.04 21:13:43 INFO  no build target found for /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala. Using presentation compiler with project's scala-library version: 3.2.0
+Dec 04, 2022 9:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Dec 04, 2022 9:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2022.12.04 21:13:45 INFO  time: code lens generation in 1.68s
+Dec 04, 2022 9:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2022.12.05 14:25:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/lsp.trace.json or /home/sourabhlodhisrb/.cache/metals/lsp.trace.json
+2022.12.05 14:25:33 INFO  logging to file /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/.metals/metals.log
+2022.12.05 14:25:33 INFO  Started: Metals version 0.11.9 in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL' for client Visual Studio Code 1.73.1.
+2022.12.05 14:25:37 INFO  time: initialize in 4.26s
+2022.12.05 14:25:38 WARN  Build server is not auto-connectable.
+2022.12.05 14:25:38 WARN  no build tool detected in workspace '/home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.05 14:25:38 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala
+2022.12.05 14:25:38 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_snowflake_conn.scala
+2022.12.05 14:25:40 INFO  no build target found for /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/trial.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.05 14:25:42 INFO  time: code lens generation in 3.05s
+2022.12.05 14:25:42 INFO  time: code lens generation in 1.91s
+2022.12.05 14:25:42 INFO  time: code lens generation in 3.04s
+2022.12.05 14:28:18 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_cassandra_conn.scala
+Dec 05, 2022 3:35:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.12.05 15:36:44 WARN  no build target for: /home/sourabhlodhisrb/Downloads/Real-Time ETL/Real-Time-ETL/spark_cassandra_conn.scala

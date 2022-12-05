@@ -10,7 +10,7 @@ class kafka_Consumer():
 
     def consume_data(self):
         consumer = KafkaConsumer(
-        'test-topic',
+        'stock-market',
         bootstrap_servers='localhost:9092',
         auto_offset_reset='latest',
         enable_auto_commit=True,
